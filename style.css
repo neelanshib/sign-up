@@ -1,0 +1,212 @@
+body{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: rgb(219, 232, 238);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    background-color: white;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 30px 0px 30px;
+    height:550px;
+    }
+h1{
+    margin-top:0;
+}
+.container-left{
+    color:white;
+    padding: 35px;
+    background-color: #b160c7;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+}
+.text-2{
+    margin-top:40px;
+}
+.container-left input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    padding:8px;
+    border:none;
+    width:100px;
+    height: 50px;
+    font-size:15px;
+}
+.sign-in:hover{
+    background-color: rgb(219, 232, 238);
+}
+.container-left input:active
+.container-left input:focus{
+    background-color: #E8A0BF;
+    border: 5px solid #b160c7;
+}
+.container-right{
+    color:#3b86c4;
+    padding: 30px;
+    text-align: left;
+    display:flex;
+    align-items: center;
+}
+.sign-up-google{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #8cc1ec;
+    color:white;
+    padding:8px;
+    border:none;
+    font-size: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+}
+
+button img{
+    height:30px;
+    margin-right:10px;
+}
+.text{
+    height:30px;
+    width:300px;
+}
+.first-name{
+    text-align: left;
+}
+.top-text{
+    margin-bottom: 0;
+}
+.container-in p{
+    margin-top: 0px;
+}
+footer{
+    color:#3b86c4;
+    font-size: 12px;
+    margin-top:0px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color:#689fcc;
+}   
+footer p{
+    margin-top:0;
+}
+.container-in{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+hr{
+    border-top:1px solid #3b86c4;
+    width:40%;
+}
+.or{
+    text-align: center;
+    font-size: 13px;
+}
+.img-logo{
+    height:100px
+}
+.sign-in{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    padding:8px;
+    border:none;
+    width:100px;
+    height: 45px;
+}
+@media(max-width:1200px){
+    .container-in{
+        margin-right: 50px;
+        margin-left:50px;
+    }
+}
+@media(max-width:900px){
+    .lorem{
+        display:none;
+    }
+    .container-in{
+        margin-right:10px;
+        margin-left:10px;
+    }
+    .container{
+        margin:10px 10px 0px 10px;
+    }
+    .text{
+        height:30px;
+        width:200px;
+    }
+    .sign-up-google{
+        margin-left:10px;
+    }
+}
+@media(max-width:600px){
+    .container-in{
+        margin-right:0px;
+        margin-left:0px;
+    }
+    .text{
+        width: 150px;
+    }
+    .sign-up-google{
+        width:150px;
+        margin-left:10px;
+        font-size: 15px;
+    }
+}
+@media(max-width:500px){
+    .container-left{
+        display:none;
+    }
+    .text{
+        width:300px;
+    }
+    .sign-up-google{
+        width:300px;
+    }
+}
+@media(max-width:400px){
+    .text{
+        width:200px;
+    }
+    .container-right{
+        width:300px;
+    }
+    .sign-up-google{
+        width:200px;
+    }
+    .container{
+        margin:0;
+    }
+}
