@@ -232,3 +232,8 @@ hr{
         margin:0;
     }
 }
+@media(max-width:300px){
+    h1{
+    font-size: 14px;
+    }
+}
