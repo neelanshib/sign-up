@@ -186,8 +186,10 @@ hr{
     }
 }
 @media(max-width:500px){
-    .container-left{
-        display:none;
+    .container{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     .text{
         width:300px;
@@ -195,6 +197,27 @@ hr{
     .sign-up-google{
         width:300px;
     }
+    .container-left{
+        width:420px;
+        height:20px;
+    }
+    .extra{
+       display:none;
+    }
+    .img-logo{
+        display:flex;
+        height:40px;
+    }
+    .flex-container{
+        display:flex;
+        margin-top:none;
+        font-size:12px
+    }
+    .text-2{
+        margin-top:none;
+        margin-left:10px;
+    }
+
 }
 @media(max-width:400px){
     .text{
