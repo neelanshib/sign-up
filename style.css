@@ -73,7 +73,7 @@ h1{
     display:flex;
     align-items: center;
     justify-content: center;
-    margin-left: 40px;
+    width:300px;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
@@ -146,6 +146,24 @@ hr{
     width:100px;
     height: 45px;
 }
+.sign-up-button{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:8px;
+    width:310px;
+    height: 45px;
+    background-color: #3b86c4;
+    border: none;
+    color:white;
+    margin-bottom:10px;
+}
+.sign-up-button:hover{
+    background-color: #23a6d5;
+}
+.sign-up-google:hover{
+    background-color:darken;
+}
+
 @media(max-width:1200px){
     .container-in{
         margin-right: 50px;
@@ -167,7 +185,7 @@ hr{
         height:30px;
         width:200px;
     }
-    .sign-up-google{
+    .sign-up-google, .sign-up-button{
         margin-left:10px;
     }
 }
@@ -179,7 +197,7 @@ hr{
     .text{
         width: 150px;
     }
-    .sign-up-google{
+    .sign-up-google, .sign-up-button{
         width:150px;
         margin-left:10px;
         font-size: 15px;
@@ -194,7 +212,7 @@ hr{
     .text{
         width:300px;
     }
-    .sign-up-google{
+    .sign-up-google, .sign-up-button{
         width:300px;
     }
     .container-left{
@@ -225,7 +243,7 @@ hr{
     .container-right{
         width:300px;
     }
-    .sign-up-google{
+    .sign-up-google, .sign-up-button{
         width:200px;
     }
     .container{
