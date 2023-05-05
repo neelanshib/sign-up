@@ -249,9 +249,15 @@ hr{
     .container{
         margin:0;
     }
+    body{
+        margin:0px;
+    }
 }
 @media(max-width:300px){
     h1{
     font-size: 14px;
+    }
+    body{
+        margin:0px;
     }
 }
