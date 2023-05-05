@@ -234,9 +234,6 @@ hr{
     .text-2{
         margin:5px;
     }
-body{
-	margin:10px;
-}
 
 }
 @media(max-width:400px){
@@ -253,7 +250,7 @@ body{
         margin:0;
     }
     body{
-        margin:0px;
+        margin:10px;
     }
 }
 @media(max-width:300px){
@@ -261,6 +258,6 @@ body{
     font-size: 14px;
     }
     body{
-        margin:0px;
+        margin:10px;
     }
 }
