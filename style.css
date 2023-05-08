@@ -50,6 +50,8 @@ h1{
 }
 .sign-in:hover{
     background-color: rgb(219, 232, 238);
+    box-shadow: 0 4px 15px 0 rgba(2, 20, 46, 0.75);
+    cursor: pointer;
 }
 .container-left input:active
 .container-left input:focus{
@@ -73,7 +75,7 @@ h1{
     display:flex;
     align-items: center;
     justify-content: center;
-    width:300px;
+    width:310px;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
@@ -159,6 +161,8 @@ hr{
 }
 .sign-up-button:hover{
     background-color: #23a6d5;
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+    cursor:pointer;
 }
 .sign-up-google:hover{
     background-color:darken;
@@ -187,6 +191,7 @@ hr{
     }
     .sign-up-google, .sign-up-button{
         margin-left:10px;
+        width:200px;
     }
 }
 @media(max-width:600px){
@@ -238,13 +243,13 @@ hr{
 }
 @media(max-width:400px){
     .text{
-        width:200px;
+        width:270px;
     }
     .container-right{
         width:300px;
     }
     .sign-up-google, .sign-up-button{
-        width:200px;
+        width:270px;
     }
     .container{
         margin:0;
@@ -260,4 +265,15 @@ hr{
     body{
         margin:10px;
     }
+    .text{
+        width:200px;
+    }
+    .sign-up-google, .sign-up-button{
+        width:200px;
+    }
 }
+.sign-up-google:hover{
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+    cursor:pointer;
+    }
