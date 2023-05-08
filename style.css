@@ -276,7 +276,7 @@ hr{
     }
     footer{
         margin-top:20px;
-}
+	}
 }
 .sign-up-google:hover{
     background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
